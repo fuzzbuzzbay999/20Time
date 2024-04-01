@@ -1,0 +1,73 @@
+<!doctype html>
+
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="XML" type="text/xml" href="gallery.xml">
+	<script src="pageSelection.js"></script>
+	<title>Exploration of digital creation</title>
+</head>
+<body onload="refresh_entries()">
+
+<div id="demo">
+<!--<h1>The XMLHttpRequest Object</h1>-->
+<!---<button type="button" onclick="loadDoc()">Change Content</button>--->
+</div>
+<h1 style="text-align:center;" class ="title">Exploration of digital creation</h1>
+<hr />
+
+
+<div id="quick_prev">
+	<p>image</p>
+	<button id="btn" onclick="prevPage()">previous</button>
+	<button id="btn" onclick="nextPage()">next</button>
+	<br>
+	<image id="IMAGE" src="images/0"  height = "300px"></image>
+
+	<br>
+	<h4 id="desc"></h4>
+	<br>
+
+</div>	
+
+<p> test page</p>
+<table id="display">
+	<tr> 
+		<td><h2 id="title0">testing</h2><image id="img0"></image><h4 id="desc0"></h4></td>
+		<td><h2 id="title1">testing</h2><image id="img1"></image><h4 id="desc1"></h4></td>
+		<td><h2 id="title2">testing</h2><image id="img2"></image><h4 id="desc2"></h4></td>
+		</tr>
+	
+	<tr>
+		<td><h2 id="title3">testing</h2><image id="img3"></image><h4 id="desc3"></h4></td>
+		<td><h2 id="title4">testing</h2><image id="img4"></image><h4 id="desc4"></h4></td>
+		<td><h2 id="title5">testing</h2><image id="img5"></image><h4 id="desc5"></h4></td>
+	</tr>
+	
+	<tr>
+		<td><h2 id="title6">testing</h2><image id="img6"></image><h4 id="desc6"></h4></td>
+		<td><h2 id="title7">testing</h2><image id="img7"></image><h4 id="desc7"></h4></td>
+		<td><h2 id="title8">testing</h2><image id="img8"></image><h4 id="desc8"></h4></td>
+	</tr>
+</table>
+<hr />
+<button id="btn" onclick=" refresh_entries()">reload</button>
+
+<ul>
+	<li><h2>test</h2></li>
+	<li><h3>test</h3></li>
+	<li><h4>test</h4></li>
+</ul>
+
+
+<hr />
+<table>
+<tr>
+	<td id="footer"> <h4> <a href="about.html">about this</a></h4></td>
+	<td id="footer"> <h4> <a href="conclusion.html" >My thoughts</a></h4></td>
+	<td id="footer"> <h4> <a href="https://github.com/fuzzbuzzbay999" >my other projects</a></h4></td>
+</tr>
+</table>
+</body>
+</html>
